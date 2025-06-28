@@ -1,0 +1,55 @@
+* {
+    background-color: #eff3cd;
+}
+
+h1 {
+    color: #605063;
+    font-size: 45px;
+    text-align: center;
+}
+
+p {
+    color: #248f8d;
+    font-size: 18px;
+    text-align: justify;
+}
+
+h3 {
+    color: #605063;
+}
+
+li {
+    margin-bottom: 7px;
+}
+
+#imagem {
+    border-radius: 25px;
+    width: 450px;
+    height: auto;
+}
+
+table {
+    width: 60%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.caixa1, .caixa2 {
+    flex: 1;
+}
